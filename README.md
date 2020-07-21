@@ -42,10 +42,15 @@ What parts of the company will be SOC 2 compliant? Maybe exclude your marketing 
 
 Audit Prep: [Vanta](https://vanta.com/) ✅
 
-Background checks: [Certn](https://certn.co/)
+Background checks:
+- [Certn](https://certn.co/)
+  - Vanta integration
 
 Password Manager:
  - [1Password](https://1password.com/) ✅
+   - $12 CAD/month/user paid monthly
+   - Need to go with the Business (not teams plan) in order to get access to the team wide password/security tools we needed
+   - Use 1password.ca for data storage in Canada 🇨🇦
  - [LastPass](https://1password.com/)
 
 Vendor Assessment:
@@ -54,6 +59,7 @@ Vendor Assessment:
 
 Single Sign On:
 - GSuite ✅
+  - Vanta integration
 - Okta
 - OneLogin
 
@@ -74,5 +80,18 @@ Auditors:
 Auditable Infrastructure:
 - Terraform
 - AWS
-- Heroku
+  - Vanta integration
+- [Heroku](https://heroku.com)
+  - Vanta integration
+  - Use Database Standard-0 at least for encryption at rest
 - Google Cloud
+
+MFA/2FA:
+- Google Aunthenticator App
+- Yubico Key
+
+## Plan & Notes
+
+- Migrating from Public & Private Heroku spaces -> AWS
+  - Working with contractors to accelorate migration to disrupt interna lfocuses and roadmap as little as possible
+-
