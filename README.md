@@ -40,58 +40,82 @@ What parts of the company will be SOC 2 compliant? Maybe exclude your marketing 
 
 ✅ = We used them.
 
-Audit Prep: [Vanta](https://vanta.com/) ✅
+### Audit Prep: [Vanta](https://vanta.com/) ✅
 
-Background checks:
+### Background checks:
 - [Certn](https://certn.co/)
   - Vanta integration
 
-Password Manager:
+### Password Manager:
  - [1Password](https://1password.com/) ✅
    - $12 CAD/month/user paid monthly
    - Need to go with the Business (not teams plan) in order to get access to the team wide password/security tools we needed
    - Use 1password.ca for data storage in Canada 🇨🇦
  - [LastPass](https://1password.com/)
 
-Vendor Assessment:
+### Vendor Assessment:
 - [Vanta](https://vanta.com/) ✅
 - Blissfully
 
-Single Sign On:
+### Single Sign On:
 - GSuite ✅
   - Vanta integration
 - Okta
 - OneLogin
 
-Pentesting:
+### Pentesting:
 - HackerOne
 - Cobalt
 
-Security Monitoring:
+### Security Monitoring:
 - Detectify ✅
 - [sqreen](https://www.sqreen.com/)
 
-Security Training:
+### Security Training:
 - [Hutsix](https://www.hutsix.io/)
 
-Auditors:
+### Auditors:
 
 
-Auditable Infrastructure:
+### Auditable Infrastructure:
 - Terraform
 - AWS
   - Vanta integration
 - [Heroku](https://heroku.com)
   - Vanta integration
-  - Use Database Standard-0 at least for encryption at rest
+  - Use Database Standard-0 at least for encryption at rest. $50/m USD
+  - Use [Papertrail]https://elements.heroku.com/addons/papertrail) Fixa plan for 365 day log retention. $8/m USD
 - Google Cloud
 
-MFA/2FA:
+### MFA/2FA:
 - Google Aunthenticator App
 - Yubico Key
+
+### Staff Security Training:
+- [Cybrary](https://app.cybrary.it/browse/skill-certification-course/end-user-security-fundamentals-certification-training-course)
+  - Recommended by Vanta
+  - Free if self registered
+
+### Vulnerability Scanning - Internal
+Scanning packages and dependencies for vulnerabilities.
+- GitHub Security ✅
+- [Ruby Advisory Database](https://github.com/rubysec/ruby-advisory-db) via Bundler Audit ✅
+- Vanta ✅
+- Yarn Audit ✅
 
 ## Plan & Notes
 
 - Migrating from Public & Private Heroku spaces -> AWS
   - Working with contractors to accelorate migration to disrupt interna lfocuses and roadmap as little as possible
 -
+
+## Vendor Security Locations/Links
+
+### GSuite
+- Their SOC2 report likely sufficient
+- self service download page
+- https://cloud.google.com/security/compliance/compliance-reports-manager
+
+### Freshworks
+- email support request
+- https://www.freshworks.com/security/resources/
