@@ -73,6 +73,7 @@ What parts of the company will be SOC 2 compliant? Maybe exclude your marketing 
 
 ### Security Training:
 - [Hutsix](https://www.hutsix.io/)
+- [PagerDuty open security training content](https://sudo.pagerduty.com/for_everyone/)
 
 ### Auditors:
 
@@ -117,5 +118,30 @@ Scanning packages and dependencies for vulnerabilities.
 - https://cloud.google.com/security/compliance/compliance-reports-manager
 
 ### Freshworks
-- email support request
+- Email support request, sent report without a problem
 - https://www.freshworks.com/security/resources/
+
+### Heroku
+- https://help.heroku.com/FEOHRZ1H/compliance-certifications-pci-dss-soc1-soc2-soc3-iso27001-iso27017-iso27019
+- Support Ticket Based
+  - https://help.heroku.com/new/compliance-doc-request
+  - Requires an NDA
+
+### Slack
+- https://slack.com/intl/en-ca/security
+- SOC 3 Download self service available
+
+### AWS
+- https://aws.amazon.com/compliance/soc-faqs/
+- Their SOC2 report likely sufficient
+- SOC 2 self service available, NDA required
+- AWS SOC 3 Security, Availability & Confidentiality Report, publicly available as a whitepaper.
+- AWS SOC 2 Security, Availability & Confidentiality Report, available to AWS customers from AWS Artifact.
+
+### Certn
+- https://certn.zendesk.com/hc/en-us/categories/360004285913-Security
+- SOC 2 in progress https://certn.zendesk.com/hc/en-us/articles/360051928713-Are-3rd-party-audits-conducted-on-the-supplier-s-security-practices-SOC-1-SOC2-SOC3-SSAE-16-CSAE-3416-or-other-at-least-annually-
+
+### Mailchimp
+- https://mailchimp.com/about/security/soc-request/
+- Submit a support ticket
