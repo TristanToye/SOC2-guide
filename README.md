@@ -145,3 +145,11 @@ Scanning packages and dependencies for vulnerabilities.
 ### Mailchimp
 - https://mailchimp.com/about/security/soc-request/
 - Submit a support ticket
+
+### CloudConvert
+- https://cloudconvert.com/privacy
+- Privacy Policy, GDPR Compliant
+
+### Twilio
+- https://www.twilio.com/security
+- Has SOC 2 for Authy only
