@@ -38,12 +38,12 @@ What parts of the company will be SOC 2 compliant? Maybe exclude your marketing 
 
 ## Tools
 
-✅ = We used them.
+✅  &nbsp; We used them.
 
 ### Audit Prep: [Vanta](https://vanta.com/) ✅
 
 ### Background checks:
-- [Certn](https://certn.co/)
+- [Certn](https://certn.co/) ✅
   - Vanta integration
 
 ### Password Manager:
@@ -66,6 +66,7 @@ What parts of the company will be SOC 2 compliant? Maybe exclude your marketing 
 ### Pentesting:
 - HackerOne
 - Cobalt
+- [BSK Security](https://bsk-security.com/) ✅
 
 ### Security Monitoring:
 - Detectify ✅
@@ -76,11 +77,12 @@ What parts of the company will be SOC 2 compliant? Maybe exclude your marketing 
 - [PagerDuty open security training content](https://sudo.pagerduty.com/for_everyone/)
 
 ### Auditors:
-
+- Barr Advisory ✅
+  - Vanta Referral
 
 ### Auditable Infrastructure:
-- Terraform
-- AWS
+- Terraform ✅
+- AWS ✅
   - Vanta integration
 - [Heroku](https://heroku.com)
   - Vanta integration
@@ -89,37 +91,44 @@ What parts of the company will be SOC 2 compliant? Maybe exclude your marketing 
 - Google Cloud
 
 ### MFA/2FA:
-- Google Aunthenticator App
+- Google Aunthenticator App ✅
 - Yubico Key
 
 ### Staff Security Training:
-- [Cybrary](https://app.cybrary.it/browse/skill-certification-course/end-user-security-fundamentals-certification-training-course)
+- [Cybrary](https://app.cybrary.it/browse/skill-certification-course/end-user-security-fundamentals-certification-training-course) ✅
   - Recommended by Vanta
   - Free if self registered
 
 ### Vulnerability Scanning - Internal
 Scanning packages and dependencies for vulnerabilities.
-- GitHub Security ✅
-- [Ruby Advisory Database](https://github.com/rubysec/ruby-advisory-db) via Bundler Audit ✅
+- GitHub Security (Dependabot) ✅
+- [Ruby Advisory Database](https://github.com/rubysec/ruby-advisory-db) via Bundler Audit gem ✅
 - Vanta ✅
 - Yarn Audit ✅
+- NPM Audit via audit-ci package ✅
+- Snyk ✅
+- Trivy ✅
+- AWS ECR Container Scanning ✅
+
+Review Password Requirements of Vendors
+- [PassHints](https://passhints.co/)
 
 ## Plan & Notes
 
 - Migrating from Public & Private Heroku spaces -> AWS
-  - Working with contractors to accelorate migration to disrupt interna lfocuses and roadmap as little as possible
--
+  - Worked with contractors to accelerate migration to disrupt internal focuses and roadmap as little as possible
 
 ## Vendor Security Locations/Links
 
-### GSuite
-- Their SOC2 report likely sufficient
-- self service download page
+### Google Workspace & Cloud
+- Has SOC2 for Workspaces & Cloud Platform
+- Self service download page
 - https://cloud.google.com/security/compliance/compliance-reports-manager
 
 ### Freshworks
 - Email support request, sent report without a problem
 - https://www.freshworks.com/security/resources/
+- NDA Required
 
 ### Heroku
 - https://help.heroku.com/FEOHRZ1H/compliance-certifications-pci-dss-soc1-soc2-soc3-iso27001-iso27017-iso27019
@@ -133,7 +142,7 @@ Scanning packages and dependencies for vulnerabilities.
 
 ### AWS
 - https://aws.amazon.com/compliance/soc-faqs/
-- Their SOC2 report likely sufficient
+- Self Service via AWS Artifact
 - SOC 2 self service available, NDA required
 - AWS SOC 3 Security, Availability & Confidentiality Report, publicly available as a whitepaper.
 - AWS SOC 2 Security, Availability & Confidentiality Report, available to AWS customers from AWS Artifact.
@@ -145,6 +154,7 @@ Scanning packages and dependencies for vulnerabilities.
 ### Mailchimp
 - https://mailchimp.com/about/security/soc-request/
 - Submit a support ticket
+- NDA Required
 
 ### CloudConvert
 - https://cloudconvert.com/privacy
@@ -152,4 +162,18 @@ Scanning packages and dependencies for vulnerabilities.
 
 ### Twilio
 - https://www.twilio.com/security
-- Has SOC 2 for Authy only
+- Has comprehensive list of certification - including SOC 2 - available upon request
+- Submit a support ticket https://support.twilio.com/hc/en-us
+- NDA Required
+
+### Github
+- https://github.com/security
+- SOC 3 report available for Enterprise Cloud
+
+### CloudFlare
+- https://www.cloudflare.com/en-ca/trust-hub/compliance-resources/
+- Login to account and submit a support request, or email your account exec
+
+### Wistia
+- https://wistia.com/support/account-and-billing/security
+- Do not appear to have any certifications at this time
