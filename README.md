@@ -172,7 +172,8 @@ Review Password Requirements of Vendors
 
 ### CloudFlare
 - https://www.cloudflare.com/en-ca/trust-hub/compliance-resources/
-- Login to account and submit a support request, or email your account exec
+- Login -> Account -> Support Tab -> Compliance Documents
+- Has SOC 2 for self service download
 
 ### Wistia
 - https://wistia.com/support/account-and-billing/security
