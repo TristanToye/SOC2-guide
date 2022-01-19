@@ -178,3 +178,8 @@ Review Password Requirements of Vendors
 ### Wistia
 - https://wistia.com/support/account-and-billing/security
 - Do not appear to have any certifications at this time
+
+## AWS Specific Configuration Considerations
+
+### Guides for Expected Configuration
+- [Enabled MFA for S3 Bucket Deletion](https://cloudkatha.com/how-to-enable-mfa-delete-on-s3-bucket/)
